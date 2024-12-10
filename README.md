@@ -8,7 +8,7 @@
 Using this tool you can easily find all files containing private ssh key
 
 
-> ⚠️ **Parameters:**  
+> ℹ️ **Parameters:**  
 > -h `Help menu`
 > 
 > -p /path/where/to/search `Scan path and it's subdirectories for key(Used to speed up the process of searching)` 
