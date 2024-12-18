@@ -5,7 +5,7 @@
 ```
 
 ## Description
-Using this tool you can easily find all files containing private ssh key
+Using this tool you can easily find all files containing searched string
 
 
 > ℹ️ **Parameters:**  
