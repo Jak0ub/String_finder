@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /
-if [ -z $1 ];then
-	if [ -z $2 ];then
+if [ -z "$1" ];then
+	if [ -z "$2" ];then
 		echo "No parameters were selected, please navigate to the help menu using -h parameter"
 		exit
 	fi
@@ -14,16 +14,16 @@ else
 		cd "$2"
 	fi
 	if [ "$1" = "-s" ];then
-		template=$2
+		template="$2"
 	fi
 	if [ "$3" = "-s" ];then
-		template=$4
+		template="$4"
 	fi
 	if [ "$3" = "-p" ];then
-		cd $4
+		cd "$4"
 	fi
 fi
-if [ -z $template ];then
+if [ -z "$template" ];then
 	echo "no template selected, use -h for more info"
 	exit
 fi
